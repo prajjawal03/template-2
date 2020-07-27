@@ -123,10 +123,14 @@ ul.main-menu {
   justify-content: center;
   box-shadow: var(--shadow);
   margin: 10px;
+  transition: transform;
+  transition-duration: 1s;
 }
-.cards div.card img {
-  width: 100%;
+.card:hover {
+  cursor: pointer;
+  transform: scale(0.95);
 }
+
 .cards div.card h1 {
   text-align: center;
   font-size: 25px;
