@@ -130,7 +130,9 @@ ul.main-menu {
   cursor: pointer;
   transform: scale(0.95);
 }
-
+.card img {
+  width: 100%;
+}
 .cards div.card h1 {
   text-align: center;
   font-size: 25px;
